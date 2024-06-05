@@ -1,7 +1,7 @@
 {
     "name": "Calculadora de Media",
     "short_name": "MEDIA",
-    "start_url": "/appMedia",
+    "start_url": "/appMedia/",
     "orientation": "portrait",
     "display": "standalone",
     "author": "Kaio Eduardo",
