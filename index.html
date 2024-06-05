@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="calculadora192.png" type="image/x-icon">
-    <title>Calculadora de  Media</title>
+    <title>Calculadora de Media</title>
 
- 
+
 </head>
- 
+
 <body>
     <div class="container">
         <h1>Calculadora de Média</h1>
         <img id="status" src="./img/calculadora.jpeg" alt="icon">
         <form name="frmMedia">
-        <p> <input type="number" name="txtnota1" placeholder="Nota" class="caixa"required></p>
-        <p> <input type="number" name="txtnota2" placeholder="Nota" class="caixa"required></p>
-        <p>  <input type="number" name="txtnota3" placeholder="Nota" class="caixa"required></p>
-        <p>  <input type="number" name="txtnota4" placeholder="Nota" class="caixa"required></p>
-        <p> <input type="button" value="Calcular" onclick="calcular()"></p>
-        <p> <input type="reset" value="Limpar" onclick="Limpar()"></p>
-        
-           
+            <p> <input type="number" name="txtnota1" placeholder="Nota" class= "caixa" required></p>
+            <p> <input type="number" name="txtnota2" placeholder="Nota" class= "caixa" required></p>
+            <p> <input type="number" name="txtnota3" placeholder="Nota" class= "caixa" required></p>
+            <p> <input type="number" name="txtnota4" placeholder="Nota" class= "caixa" required></p>
+            <p> <input type="button" value="Calcular" onclick="calcular()"></p>
+            <p> <input type="reset" value="Limpar" onclick="Limpar()"></p>
+
+
         </form>
     </div>
     <script>
-         if ('serviceWorker' in navigator) {
+        if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
                 .then((registration) => {
                     console.log('Service Worker registrado com escopo: ', registration.scope)
@@ -37,8 +37,8 @@
                 })
         }
     </script>
-    
+
     <script src="media.js"></script>
 </body>
- 
+
 </html>
