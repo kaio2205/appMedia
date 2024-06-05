@@ -1,0 +1,21 @@
+{
+    "name": "Calculadora de Media",
+    "short_name": "MEDIA",
+    "start_url": "/appMedia",
+    "orientation": "portrait",
+    "display": "standalone",
+    "author": "Kaio Eduardo",
+    "lang": "pt-BR",
+    "icons": [
+      {
+        "src": "calculadora192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "calculadora512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

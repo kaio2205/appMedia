@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: aqua;
+}
+ 
+.container {
+    text-align: center;
+}
+ 
+ 
+.container h1 {
+    color: darkblue;
+}
+ 
+ 
+.container img {
+    max-width: 90%;
+    height: auto;
+}
+ 
+ 
+.caixa {
+    width: 90px;
+    border: 1px solid blue;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 2px;
+
+
+}
