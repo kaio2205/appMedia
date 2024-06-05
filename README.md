@@ -13,6 +13,7 @@
 
 Desenvolvento de  um aplicativo para  calcular a media usando PWA 
 
-![image](https://kaio2205.github.io/appMedia/)
+![image](![image](https://github.com/kaio2205/appMedia/assets/132935535/c9e933da-7cdb-4f10-bf97-79d6baa0fb0c)
+)
 
 
