@@ -6,6 +6,7 @@
     "display": "standalone",
     "author": "Kaio Eduardo",
     "lang": "pt-BR",
+    "theme_color": "#87CEEB",
     "icons": [
       {
         "src": "calculadora192.png",

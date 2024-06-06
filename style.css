@@ -1,32 +1,43 @@
+/* Estilos gerais */
 body {
-    font-family: sans-serif;
-    font-size: 1em;
-    background-color: aqua;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: indigo; /* Aquamarine */
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover preenchimentos padrão */
 }
- 
+
 .container {
     text-align: center;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    max-width: 500px; /* Largura máxima do conteúdo */
+    padding: 10px; /* Adicionar espaçamento interno */
 }
- 
- 
+
+/* Estilos para o título */
 .container h1 {
-    color: darkblue;
+    color: darkorchid; /* Dark blue */
+    margin-bottom: 20px; /* Espaçamento inferior */
 }
- 
- 
+
+/* Estilos para imagens */
 .container img {
-    max-width: 90%;
+    max-width: 100%; /* Garantir que as imagens sejam responsivas */
     height: auto;
 }
- 
- 
+
+/* Estilos para a caixa */
 .caixa {
-    width: 90px;
-    border: 1px solid blue;
+    width: 200px; /* Ajuste para melhorar a visualização */
+    border: 3px solid blueviolet; /* Dark blue */
     padding: 8px;
     text-align: center;
-    border-radius: 8px;
-    margin-bottom: 2px;
+    border-radius: 30px;
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
 
-
+input[type = "reset"],
+input[type = "button"] {
+    width: 140px;
+    color: blueviolet;
 }
