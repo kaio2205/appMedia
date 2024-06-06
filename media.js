@@ -2,6 +2,7 @@
 
 
 let nota1, nota2, nota3, nota4, media
+let p = document.getElementById('mensagemMedia')
 
 
 function calcular() {
@@ -12,6 +13,7 @@ function calcular() {
 
 
     const resultado = (nota1 + nota2 + nota3 + nota4) / 4
+    const mensagemElement = document.getElementById('mensagemMedia');
 
     if (frmMedia.txtnota1.value === "") {
 
@@ -24,15 +26,15 @@ function calcular() {
     } else {
         if (resultado < 4) {
             document.getElementById('status').src = "./img/aluno_reprovado.png"
-            alert(`A media do aluno foi ${resultado}, ele está reprovado):`)
+            mensagemElement.textContent = `A média do aluno foi ${resultado}, ele está reprovado):`;
 
         } else if (resultado >= 7) {
             document.getElementById('status').src = "./img/aprovado.png"
-            alert(`A media do aluno foi ${resultado}, ele está aprovado`)
+            mensagemElement.textContent = `A média do aluno foi ${resultado}, ele está aprovado`;
 
         } else {
             document.getElementById('status').src = "./img/recuperaçao.jpeg"
-            alert(`A media do aluno foi ${resultado}, ele está de recuperação`)
+            mensagemElement.textContent = `A média do aluno foi ${resultado}, ele está de recuperação`;
 
         }
     }
@@ -42,4 +44,5 @@ function calcular() {
 
 function limparCampos() {
     document.getElementById('status').src = "./img/calculadora.jpeg"
+    document.getElementById("mensagemMedia").textContent=""
 }
