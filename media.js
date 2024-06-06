@@ -40,6 +40,6 @@ function calcular() {
 
 }
 
-function Limpar() {
+function limparCampos() {
     document.getElementById('status').src = "./img/calculadora.jpeg"
 }
