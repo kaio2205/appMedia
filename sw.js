@@ -11,8 +11,8 @@ const urlsToCache = [
   '/index.html',
   '/media.js',  
   '/style.css',
-  '/img/calculadora512.png',
-  '/img/calculadora192.png',
+  '/calculadora512.png',
+  '/calculadora192.png',
   '/img/aluno_reprovado.png',
   '/img/aprovado.png',
   '/img/calculadora.jpeg'
